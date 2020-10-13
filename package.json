@@ -1,0 +1,31 @@
+{
+  "name": "edamantinum",
+  "version": "1.0.0",
+  "description": "edamantinum",
+  "main": "index.js",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "connect-mongo": "^3.2.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "csurf": "^1.11.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "mongodb": "^3.6.1",
+    "secure-random-string": "^1.1.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "edamantinum"
+  },
+  "keywords": [
+    "edamantinum"
+  ],
+  "author": "prashant kumar barman",
+  "license": "ISC"
+}
