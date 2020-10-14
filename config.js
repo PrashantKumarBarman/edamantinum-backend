@@ -21,4 +21,4 @@ function getclient() {
 
 module.exports.connect = connect;
 module.exports.getclient = getclient;
-module.exports.env = 'dev';
+module.exports.env = 'prod';

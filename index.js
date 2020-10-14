@@ -17,7 +17,8 @@ app.use(bodyParser.json());
 if(env === 'prod') {
   app.use(csurf({ cookie: true }));
   app.all('*', function(req, res, next) {
-    res.cookie('XSRF-TOKEN', req.csrfToken());
+    let token = req.csrfToken();
+    res.cookie('XSRF-TOKEN', token);
     return next();
   });
 }
