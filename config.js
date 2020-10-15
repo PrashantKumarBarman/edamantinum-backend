@@ -6,7 +6,7 @@ let client = null;
 
 async function connect() {
     try {
-        client = await MongoClient.connect('mongodb://mongo-root:rooteight@localhost:27017/edamantinum?authSource=admin', { useUnifiedTopology : true });
+        client = await MongoClient.connect('mongodb://root:rooteight@localhost:27017/edamantinum?authSource=admin', { useUnifiedTopology : true });
         return client;
     }
     catch(err) {
