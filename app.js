@@ -35,11 +35,10 @@ connect()
   }));
 
   app.use('/api', apiRoutes);
-
-  app.listen(80);
-  console.log('server is listening');
 })
 .catch((err) => {
   console.log(err);
 });
+
+module.exports = app;
 

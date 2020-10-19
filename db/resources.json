@@ -1,5 +1,0 @@
-{"_id":{"$oid":"5f6b8a1fa914702e207d41af"},"title":"edx","link":"edx.org","topics":["mathematics","physics","chemistry","biology"],"last_modified":{"$date":"2020-10-11T12:47:37.54Z"}}
-{"_id":{"$oid":"5f6b8b1c5413452ae4c4f9d1"},"title":"coursera","link":"coursera.org","topics":["mathematics","physics","chemistry","biology"]}
-{"_id":{"$oid":"5f6b8eecdcfd9c148025647c"},"title":"openstax","link":"openstax","topics":["mathematics","physics","chemistry","biology"],"created_at":{"$date":"2020-09-23T18:07:40.403Z"},"last_modified":{"$date":"2020-09-23T18:07:40.403Z"}}
-{"_id":{"$oid":"5f6b9286e8980b14e45fdf91"},"title":"ck12","link":"ck12.org","topics":["mathematics","physics","chemistry","biology"],"created_at":{"$date":"2020-09-23T18:23:02.016Z"},"last_modified":{"$date":"2020-09-23T18:23:02.016Z"}}
-{"_id":{"$oid":"5f773a05a663001d3c9b455f"},"title":"khanacademy","link":"khanacademy.org","topics":["mathematics","physics","chemistry","biology"],"created_at":{"$date":"2020-10-02T14:32:37.576Z"},"last_modified":{"$date":"2020-10-02T14:36:01.729Z"}}
