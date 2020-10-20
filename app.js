@@ -35,6 +35,7 @@ connect()
   }));
 
   app.use('/api', apiRoutes);
+
 })
 .catch((err) => {
   console.log(err);

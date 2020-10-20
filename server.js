@@ -1,8 +1,10 @@
 'use strict';
 
 let app = require('./app.js');
+let { env } = require('./config.js');
 
-require('greenlock-express')
+if(env === 'prod') {
+    require('greenlock-express')
     .init({
         packageRoot: __dirname,
 
@@ -17,5 +19,9 @@ require('greenlock-express')
     // Serves on 80 and 443
     // Get's SSL certificates magically!
     .serve(app);
+}
+else {
+    app.listen(80);
+}
 
 console.log('Server is listening');
